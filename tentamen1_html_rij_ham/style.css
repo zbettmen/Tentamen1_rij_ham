@@ -1,0 +1,67 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+  #table{
+    border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+  }
+ 
+  td{
+    border: 2px solid black;
+  }
+
+  #position {
+    position: relative;
+  left: 600px;
+  border: 250px solid lightblue;
+  width: 200px
+  }
+
+  #above{
+    position: absolute;
+    bottom: 90px;
+    top: -30px;
+    
+    width: 300px;
+    height: 274px;
+    background: green;
+  }
+
+  #under{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 300px;
+    height: 220px;
+    background: red;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  .topnav a {
+    
+        display: inline-block;
+        margin-left: 20px;
+        color: white;
+        display: flex;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="my tentamen">
+  <meta name="author" content="Rijad Hamula">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="topnav">
+    <ul id="ul">
+    <li><a href="https://github.com">Github</a></li>
+    <li><a href="https://getbootstrap.com">Bootstrap</a></li>
+    <li><a href="https://www.w3schools.com">W3schools</a></li>
+    </ul>
+  </nav>
+        <div id="table">
+          <table>
+            <tr>
+              <th>Valuta</th>
+              <th>Land</th>
+              <th>Språk</th>
+            </tr>
+            <tr>
+              <td>Sek</td>
+              <td>DKK</td>
+              <td>NOK</td>
+            </tr>
+            <tr>
+              <td>Sverige</td>
+              <td>Danmark</td>
+              <td>Norge</td>
+            </tr>
+            <tr>
+              <td>Svenska</td>
+              <td>Danska</td>
+              <td>Norska</td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="position">
+          <div>
+            <h1 id="above">Above</h1>
+          </div>
+          <div>
+            <h1 id="under">Under</h1>
+          </div>
+        </div>
+
+        <div class="row">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+
+        <ul class="list-group">
+          <li class="list-group-item active">BMW</li>
+          <li class="list-group-item disabled">Ferrari</li>
+          <li class="list-group-item disabled" >Audi</li>
+          <li class="list-group-item disabled">Mercedes</li>
+        
+         
+    <h2>SEO</h2>
+    <ol>
+      <li></li>meta name="description"</li> 
+      <li>meta name="keywords" content="HTML, CSS, html, bilar, Osv"</li>
+      <li>Semantisk korrekthet</li>
+      <li>Bra länknamn, exempelvis "Ta reda på mer om bilar" istället för "Klicka på mig"</li>
+      <li>Undvik förkortningar, bindestreck</li>
+      <li>Sök på tex hur kokar jag pasta istället för bara pasta kokar , om du söker på ett en mening burkar man få upp relevanta träffar</li>
+    </ol>
+        </ul>
+
+        <h2>Seo och nyckel ord</h2>
+        <p>
+          Nyckelorden ska ligga i en meta-tag som placeras i head elementet i HTML:en
+        För att få högre rakning av tex en sida som säljer bilar ska man ha enkla nyckel ord tex service, säljer köper förmedlar osv det
+        folk ofta söker på ju mer trafik på hemsidan ju högre ranking.
+        </p>
+
+        <h2>Nätverk</h2>
+
+        <p>
+          När du först skriver in en webbplats webbadress så skickar den först en request med ett protokoll "http" som ligger på "world wide web" dvs en server
+      Denna request skickas till en webbserver som tillhör den DNS:en som säger att om webbplatsen finns så tar den innehållet på webbplatsen och skickar tillbaka det till användaren
+        </p>
+
+        <h2>Responsiv webbdesign</h2>
+        <p>
+          <p>Responsiv webbdesign innebär att man anpassar webbplatsen efter olika skärmstorlekar.
+          en väldigt stor del av användare idag använder sig av mobiler eller surfplattor för att surfa på webben. Då måste man anpassa hemsidan
+          efter deras skärmstorlek så inte innehållet på sidan ska se dåligt ut</p>
+          <p>Ett sätt är att använda sig utav någonting som kallas för media queries.
+          Ett annat sätt är att använda procentuella värden när man anger exempelvis en width. Då förändras elementet
+          beroende på fönstrets storlek.
+          <p>Brytpunkter stöter man in på när man använder sig av media queries. Man använder sig av det när man vill avgöra i vilka fönsterstorlekar
+          sidan ska förändras. Ett exempel på detta är " @media only screen and (max-width: 600px) {} " Då säger man att när webbplatsen är 600px och mindre
+          så ska sidan förändras på ett visst sätt beroende på vad du skriver innanför.
+        </p>
+
+        <h2> Granska koden</h2>
+    <ul>
+      <li class="listMargin">Det finns ingen "html lang="språk"</li>
+      <li class="listMargin">Implementeringen av CSS:en är inkorrekt.</li>
+      <li class="listMargin">nav:en bör vara i ett nav-element, inte i en div klass.</li>
+      <li class="listMargin">Divarna under h3:an är div:ar men bör vara paragraf. Detta för att det är en textrad. Vill man styla detta så bör man lägga till ett id eller en klass till en p-tag.</li>
+      <li class="listMargin">img-elementet är felskrivet och det finns ingen alt-tag med som hjälper till om bilden för någon anledning inte kan läsas in.</li>
+      <li class="listMargin">form-metoden get ska inte användas om det är känslig data som exempelvis i detta fallet ett lösenord. Istället använder man "Post"</li>
+      <li class="listMargin">Det finns inget "name" på input-type:n så när informationen skickas till en webbserver så anges inget namn på informationen, så det blir svårhanterligt.</li>
+      <li class="listMargin">Footern är en div och bör vara en footer tag.</li>
+      <li class="listMargin">body har inte stängts med ett /body, inte heller html dokumentet har stängts.</li>
+    </ul>
+</body>
+</html>
